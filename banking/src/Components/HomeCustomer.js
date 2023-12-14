@@ -35,7 +35,7 @@ const HomeCustomer = () => {
       console.log(data);
       setAmountData(data);
     } catch (error) {
-      setError("Error fetching data from the server");
+      setError("Error fetching data from the server ⌛");
     } finally {
       setLoading(false);
     }
@@ -48,7 +48,7 @@ const HomeCustomer = () => {
       console.log(data)
       setLoanData(data);
     } catch(error){
-      setErrorl("Error fetching data from the server");
+      setErrorl("Error fetching data from the server ⌛");
     }finally {
       setloadingl(false);
     }

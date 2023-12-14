@@ -99,6 +99,7 @@ const EmpSavReports = () => {
                 <label style={styles.label}>Salary :{customer.salary}</label><br/>
                 <label style={styles.label}>status : <span style={styles.status(customer.status)}>{customer.status? 'active' : 'inactive'}</span></label><br/>
                 &nbsp;<label><Link to={`/HomeSavings/EmpSavTrans?c=${customer.cid}`} style={styles.button} >savings</Link></label>
+                <label style={styles.label}>{error}</label>
           </div>  
         </div>
       ))}

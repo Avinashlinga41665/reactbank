@@ -31,7 +31,7 @@ const LoanPay = () => {
       const userdata = await response.json();
 
       if (userdata === 4) {
-        setLoan("Loan paid successfully !! thank you");
+        setLoan("Loan paid successfully !! thank you ✌️");
       } else if(userdata ===0) {
         setLoan("insufficient funds");
       }

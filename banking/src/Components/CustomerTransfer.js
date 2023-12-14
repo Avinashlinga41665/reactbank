@@ -44,7 +44,7 @@ const CustomerTransfer = () => {
                 const userdata = await response.json();
                 console.log(userdata)
                 if (userdata === 4) {
-                    setTransferMessage('Transfer successful. Amount transferred to the specified account.');
+                    setTransferMessage('Transfer successful. Amount transferred to the specified account ✌️.');
                 } else if(userdata ===0) {
                     setTransferMessage('Transfer failed. Insufficient funds');
                 }
