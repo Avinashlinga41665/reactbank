@@ -31,7 +31,10 @@ const CustomerTransfer = () => {
                 setTransferMessage('Please fill in all fields.');
                 return;
             }
-
+            if (fromaccid.savingsid === toaccid.current.value) {
+                setTransferMessage('Transfer failed. amount cannot be send to same account.');
+                return;
+            }
         
 
             const response = await fetch(`https://localhost:7273/api/transfer/${fromaccid.savingsid}`, {
