@@ -4,7 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 const Login = () => {
   const usid = useRef(null)
   const Password = useRef(null);
-  const [userType, setUserType] = useState(null);
+  const [userType, setUserType] = useState(null)
   const [selectedTab, setSelectedTab] = useState(null);
   const [message, setmessage] = useState(null);
   var jsonData = "";
