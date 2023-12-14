@@ -61,6 +61,7 @@ const ManagerMaster = () => {
     </div>
  
 </nav>
+<label>🏦</label>
 <div style={{marginTop:"100px", marginLeft:"150px"}}>
 {sessionStorage.getItem("usid")==null?
          <div >Welcome Guest</div>:

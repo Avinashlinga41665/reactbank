@@ -27,6 +27,8 @@ const LoanMaster = () => {
            }  
  
             </div>
+            <label>🏦</label>
+
         </div>
         {sessionStorage.getItem("uid")==null?
          <div className='btn btn-info'>Welcome Guest</div>:

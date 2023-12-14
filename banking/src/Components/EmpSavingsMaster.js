@@ -52,10 +52,11 @@ const EmpSavingMaster = () => {
       
     </div>
                 </nav>
+                <label>🏦</label>
                 <div style={{ marginTop: "100px", marginLeft: "150px" }}>
                 {sessionStorage.getItem("usid")==null?
          <div >Welcome Guest</div>:
-         <div style={styles.div} >Welcome : {sessionStorage.getItem("usid") } 🏦</div>
+         <div style={styles.div} >Welcome : {sessionStorage.getItem("usid") } </div>
            }  
                     <Outlet />
                 </div>

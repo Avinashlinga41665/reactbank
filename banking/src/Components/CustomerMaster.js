@@ -66,12 +66,12 @@ const CustomerMaster = () => {
         </div>
         </div>
         </nav>
+        <label style={styles.css}> 🏦</label>
             <div>
             {sessionStorage.getItem("usid")==null?
          <div > {navigate('/Login')}</div>:
          <div style={styles.div}>Welcome : {sessionStorage.getItem("usid")} </div>
            }  
-           <label style={styles.css}> hello 🏦</label>
             </div>
 <div style={{marginTop:"100px", marginLeft:"10px"}}>
 <Outlet/>
